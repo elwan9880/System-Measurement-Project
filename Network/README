@@ -1,0 +1,7 @@
+Network experiment
+1. Using Visual Studio 2013 as IDE and compiler
+2. All of the three experiments need to change SERVERADDR to the server IP address, default is localhost
+3. All of the three experiments need to run with NetworkServer. Run below command on cmd for invoking NetworkServer.
+- RoundTripTime: /NetworkServer.exe 1
+- PeakBandwidth: /NetworkServer.exe 268435456
+- ConnectionOverhead: /NetworkServer.exe 1000000
